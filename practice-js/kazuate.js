@@ -4,6 +4,7 @@ console.log('答え（デバッグ用）: ' + kotae);
 
 // 入力回数（予想回数）
 let kaisu = 1;
+let x  = document.querySelector('p#result');
 
 // 予想を4回実行する
 // 将来以下の hantei(); の4回の呼び出しを全て削除する
@@ -19,13 +20,13 @@ function hantei() {
   console.log(kaisu+"回目の予想:"+yoso);
   if (kaisu < 5){
   if (yoso == kotae){
-    console.log("正解ですおめでとう！");
+    x.textContent="正解ですおめでとう！";
     kaisu = kaisu + 4;
   }else if (yoso < kotae){
-    console.log("間違え答えはもっと大きいですよ");
+    x.textContent="間違え答えはもっと大きいですよ";
     kaisu = kaisu + 1;
   }else if (yoso > kotae){
-    console.log("間違え答えはもっと小さいですよ");
+    x.textContent="間違え答えはもっと小さいですよ";
     kaisu = kaisu + 1;
   }
 } else{
