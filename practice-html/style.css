@@ -1,10 +1,15 @@
 h1 {
-    color:white;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color:rgb(217, 246, 88);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(237, 237, 240), 0 0 0.2em blue;
 }
 body{
-    background-color: #ec41de;
+    background-color: #0a18e7;
 }
 h2{
-    color:aliceblue
+    color:rgb(223, 238, 85);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(237, 237, 240), 0 0 0.2em blue;
+}
+p{
+    color:aliceblue;
+}
 }
