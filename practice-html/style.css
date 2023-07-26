@@ -10,7 +10,8 @@ h2{
     text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(237, 237, 240), 0 0 0.2em blue;
 }
 p{
-    color:aliceblue;
+    color:rgb(9, 16, 216);
+    background-color: #cfd0e2;
 }
 ul{
     background-color: #cfd0e2; 
